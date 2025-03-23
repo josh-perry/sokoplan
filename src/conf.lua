@@ -15,18 +15,17 @@ function love.conf(t)
 	t.console               = false
 	t.accelerometerjoystick = false
 	t.externalstorage       = false
-	t.gammacorrect          = false
 	t.highdpi			    = false
 
 	t.audio.mic             = false
 	t.audio.mixwithsystem   = true
 
-	t.window.title          = "Untitled"
-	t.window.icon           = nil
-	t.window.width          = 800
-	t.window.height         = 600
+	t.window.title          = "SOKOPLAN"
+	t.window.icon           = "assets/icon.png"
+	t.window.width          = 640
+	t.window.height         = 320
 	t.window.borderless     = false
-	t.window.resizable      = false
+	t.window.resizable      = true
 	t.window.minwidth       = 1
 	t.window.minheight      = 1
 	t.window.fullscreen     = false
@@ -39,6 +38,7 @@ function love.conf(t)
 	t.window.usedpiscale    = true
 	t.window.x              = nil
 	t.window.y              = nil
+	t.window.gammacorrect   = false
 
 	t.modules.audio         = true
 	t.modules.data          = true

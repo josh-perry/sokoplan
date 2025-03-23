@@ -1,0 +1,43 @@
+{ "frames": {
+   "spritesheet.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 512, "h": 512 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 512, "h": 512 },
+    "sourceSize": { "w": 512, "h": 512 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.3.13-x64",
+  "image": "spritesheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 512, "h": 512 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 2", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+   { "name": "guy", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 0, "y": 0, "w": 16, "h": 16 } }] },
+   { "name": "wall", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 16, "y": 0, "w": 16, "h": 16 } }] },
+   { "name": "floor", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 32, "y": 0, "w": 16, "h": 16 } }] },
+   { "name": "boulder", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 16, "y": 16, "w": 16, "h": 16 } }] },
+   { "name": "hole", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 48, "y": 16, "w": 16, "h": 16 } }] },
+   { "name": "up", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 16, "y": 32, "w": 16, "h": 16 } }] },
+   { "name": "down", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 32, "y": 32, "w": 16, "h": 16 } }] },
+   { "name": "left", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 48, "y": 32, "w": 16, "h": 16 } }] },
+   { "name": "right", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 64, "y": 32, "w": 16, "h": 16 } }] },
+   { "name": "crown", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 64, "y": 16, "w": 16, "h": 16 } }] },
+   { "name": "guy2", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 0, "y": 16, "w": 16, "h": 16 } }] },
+   { "name": "guywin", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 0, "y": 32, "w": 16, "h": 16 } }] },
+   { "name": "dust1", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 0, "y": 48, "w": 16, "h": 16 } }] },
+   { "name": "dust2", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 16, "y": 48, "w": 16, "h": 16 } }] },
+   { "name": "dust3", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 32, "y": 48, "w": 16, "h": 16 } }] },
+   { "name": "dust4", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 48, "y": 48, "w": 16, "h": 16 } }] },
+   { "name": "boulderplaced", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 32, "y": 16, "w": 16, "h": 16 } }] }
+  ]
+ }
+}
